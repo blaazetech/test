@@ -1,5 +1,5 @@
 <?php
-//this is a comment
+//this is a comment in new commit
 include('lock.php');
 error_reporting(0);
 require_once("connect.php");
