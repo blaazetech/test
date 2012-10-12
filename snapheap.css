@@ -1,0 +1,31 @@
+.crop{
+	float:left;
+	margin:0px 0px 0px 0;
+	overflow:hidden; /* this is important */
+	border:1px solid #ccc;
+	}
+	/* input values to crop the image: top, right, bottom, left */
+.crop-right img{
+	margin:0px -12px 0px 0px;
+	}
+.crop-bottom img{
+	margin:0px 0px -12px 0px;
+	}
+	.tooltip{
+	position:absolute;
+	width:250px;
+	background-position:left center;
+	color:#FFF;
+	padding:5px 5px 5px 18px;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;}
+	
+.tooltip-image{
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	margin-top:3px;}	
+	
+	
+	.tooltip span{font-weight:700;
+color:#ffea00;}
